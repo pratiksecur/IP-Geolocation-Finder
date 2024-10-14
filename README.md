@@ -30,7 +30,7 @@ Geolocation for IP: 157.240.192.0
 First, clone this repository to your local machine using the following command:
 
 ```bash
-git clone https://github.com/pratiksecur/IP-Geolocation-Finder.git
+git clone https://github.com/your-username/IP-Geolocation-Finder.git
 ```
 
 ### Step 2: Navigate to the Directory
@@ -41,18 +41,32 @@ Move into the project directory:
 cd IP-Geolocation-Finder
 ```
 
-### Step 3: Install the Required Dependencies
+### Step 3: Add Your Access Token
+
+Before running the script, you need to add your IPinfo API access token. 
+
+1. Sign up at [ipinfo.io](https://ipinfo.io/signup) to get your access token.
+2. Open the `geofinder.py` file in a text editor.
+3. Find the line that reads:
+
+   ```python
+   access_token = 'your_access_token'
+   ```
+
+4. Replace `'your_access_token'` with your actual API token from IPinfo.
+
+### Step 4: Install the Required Dependencies
 
 Make sure you have Python installed on your system. You can install the required Python libraries by running:
 
 ```bash
-pip3 install -r requirements.txt
+pip install -r requirements.txt
 ```
 
-### Step 4: Run the Script
+### Step 5: Run the Script
 
 You can run the script by executing:
 
 ```bash
-python3 geofinder.py
+python geofinder.py
 ```
