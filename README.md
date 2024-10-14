@@ -30,7 +30,7 @@ Geolocation for IP: 157.240.192.0
 First, clone this repository to your local machine using the following command:
 
 ```bash
-git clone https://github.com/your-username/IP-Geolocation-Finder.git
+git clone https://github.com/pratiksecur/IP-Geolocation-Finder.git
 ```
 
 ### Step 2: Navigate to the Directory
