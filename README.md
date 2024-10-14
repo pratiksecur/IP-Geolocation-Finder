@@ -46,7 +46,7 @@ cd IP-Geolocation-Finder
 Make sure you have Python installed on your system. You can install the required Python libraries by running:
 
 ```bash
-pip install -r requirements.txt
+pip3 install -r requirements.txt
 ```
 
 ### Step 4: Run the Script
@@ -54,5 +54,5 @@ pip install -r requirements.txt
 You can run the script by executing:
 
 ```bash
-python geofinder.py
+python3 geofinder.py
 ```
